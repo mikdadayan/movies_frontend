@@ -2293,24 +2293,4 @@ Now offers a zero-configuration single-command deployment. You can use `now` to 
 
 1. Install the `now` command-line tool either via the recommended [desktop tool](https://zeit.co/download) or via node with `npm install -g now`.
 
-2. Build your app by running `npm run build`.
 
-3. Move into the build directory by running `cd build`.
-
-4. Run `now --name your-project-name` from within the build directory. You will see a **now.sh** URL in your output like this:
-
-    ```
-    > Ready! https://your-project-name-tpspyhtdtk.now.sh (copied to clipboard)
-    ```
-
-    Paste that URL into your browser when the build is complete, and you will see your deployed app.
-
-Details are available in [this article.](https://zeit.co/blog/unlimited-static)
-
-### [S3](https://aws.amazon.com/s3) and [CloudFront](https://aws.amazon.com/cloudfront/)
-
-See this [blog post](https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af) on how to deploy your React app to Amazon Web Services S3 and CloudFront.
-
-### [Surge](https://surge.sh/)
-
-Install the Surge CLI if you haven’t already by running `npm install -g surge`. Run the `surge` command and log in you or create a new account.
