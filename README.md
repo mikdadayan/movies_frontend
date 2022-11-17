@@ -2261,36 +2261,6 @@ In this case, ensure that the file is there with the proper lettercase and thatâ
 
 **To do a manual deploy to Netlifyâ€™s CDN:**
 
-```sh
-npm install netlify-cli -g
-netlify deploy
-```
 
-Choose `build` as the path to deploy.
-
-**To setup continuous delivery:**
-
-With this setup Netlify will build and deploy when you push to git or open a pull request:
-
-1. [Start a new netlify project](https://app.netlify.com/signup)
-2. Pick your Git hosting service and select your repository
-3. Set `yarn build` as the build command and `build` as the publish directory
-4. Click `Deploy site`
-
-**Support for client-side routing:**
-
-To support `pushState`, make sure to create a `public/_redirects` file with the following rewrite rules:
-
-```
-/*  /index.html  200
-```
-
-When you build the project, Create React App will place the `public` folder contents into the build output.
-
-### [Now](https://zeit.co/now)
-
-Now offers a zero-configuration single-command deployment. You can use `now` to deploy your app for free.
-
-1. Install the `now` command-line tool either via the recommended [desktop tool](https://zeit.co/download) or via node with `npm install -g now`.
 
 
