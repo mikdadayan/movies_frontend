@@ -2184,17 +2184,7 @@ additional modifications:
 +   "deploy": "gh-pages -b master -d build",
 ```
 
-#### Step 3: Deploy the site by running `npm run deploy`
 
-Then run:
-
-```sh
-npm run deploy
-```
-
-#### Step 4: Ensure your project’s settings use `gh-pages`
-
-Finally, make sure **GitHub Pages** option in your GitHub project settings is set to use the `gh-pages` branch:
 
 
 
