@@ -2162,13 +2162,7 @@ yarn add gh-pages
 
 Add the following scripts in your `package.json`:
 
-```diff
-  "scripts": {
-+   "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-```
+
 
 
 
